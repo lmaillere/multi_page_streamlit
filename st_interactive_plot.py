@@ -7,6 +7,8 @@ from scipy.integrate import odeint
 # plot the logistic equation in pyplot with interaction on param
 st.title("Plot of the logistic model")
 
+st.write("This simple app takes parameters from the user and plots the corresponding logistic model, and its numerical integration.")
+
 # some x array
 x = np.arange(0, 11, 0.1)
 
@@ -19,7 +21,7 @@ r = st.slider('Enter the Intrinsic growth rate (r):',min_value=0.2, max_value=2.
 # from the Biomaths code / mam3
 
 # densité initiale de la population
-x0 = st.number_input('Condition initiale :', min_value = 0.0, max_value = K+2, value = 0.5, step = 0.1)
+x0 = st.number_input('Initial condition:', min_value = 0.0, max_value = K+2, value = 0.5, step = 0.1)
 
 # encapsulation de la densité initiale
 etat0 = np.array([x0])
