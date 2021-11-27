@@ -12,7 +12,7 @@ x = np.arange(0, 11, 0.1)
 
 # parameter K is fixed, parameter r through user input via a streamlit slider
 K = 10.0
-r = st.slider('Intrinsic growth rate (r):',min_value=0.2, max_value=2.0, step=0.1)
+r = st.slider('Enter the Intrinsic growth rate (r):',min_value=0.2, max_value=2.0, step=0.1)
 
 #############################
 # example with an integration
