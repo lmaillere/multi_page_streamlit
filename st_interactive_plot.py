@@ -12,14 +12,14 @@ x = np.arange(0, 11, 0.1)
 
 # parameter K is fixed, parameter r through user input via a streamlit slider
 K = 10.0
-r = st.slider('Intrinsic growth rate (r):',min_value=1.0, max_value=4.0)
+r = st.slider('Intrinsic growth rate (r):',min_value=0.2, max_value=2.0, step=0.1)
 
 #############################
 # example with an integration
 # from the Biomaths code / mam3
 
 # densité initiale de la population
-x0 = st.number_input('Condition initiale :', min_value = 0.0, max_value = K+2, value = 0.5)
+x0 = st.number_input('Condition initiale :', min_value = 0.0, max_value = K+2, value = 0.5, step = 0.1)
 
 # encapsulation de la densité initiale
 etat0 = np.array([x0])
