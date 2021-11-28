@@ -2,7 +2,25 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
-from multipage import MultiPage
+from multipage import save, MultiPage, start_app
+
+
+
+
+start_app() #Clears the cache when the app is started
+
+app = MultiPage()
+app.start_button = "Let's go!"
+app.navbar_name = "Navigation"
+app.next_page_button = "Next Page"
+app.previous_page_button = "Previous Page"
+
+def startpage():
+    st.markdown("""# A test for multipage streamlit app
+    using the multipage framework by Yan Almeida
+    https://github.com/YanAlmeida/streamlit-multipage-framework""")
+
+app.set_initial_page(startpage)
 
 ###############################################################
 # plot the logistic equation in pyplot with interaction on param
@@ -67,3 +85,5 @@ fig.suptitle('Modèle logistique\n $r = {}, K={}$'.format(r, K))
 # show the pyplot figure in the app
 st.pyplot(fig)
 
+
+app.run()
