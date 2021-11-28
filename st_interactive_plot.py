@@ -50,7 +50,7 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 5))
 ax1.plot(x, r*x*(1-x/K), label = '$\dot x = rx(1-x/K)$')
 ax1.grid()
 ax1.legend()
-ax1.set_ylim(bottom = -1, top = 11)
+ax1.set_ylim(bottom = -1, top = 6)
 ax1.set_ylabel('dérivée $\dot x$')
 ax1.set_xlabel('densité de population $x$')
 
