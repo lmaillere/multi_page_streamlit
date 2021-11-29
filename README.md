@@ -1,4 +1,4 @@
-# Multipage streamlit app of logistic and Allee effects model
+# Multipage streamlit app for population dynamics models
 
 This work a detailed implementation of a web app able to represent and simulate 1D population dynamics models. Parameters are fixed, and the initial condition can be set by the user through a slider.
 
