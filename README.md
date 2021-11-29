@@ -1,10 +1,10 @@
 # Multipage web app for population dynamics models
 
-This work a detailed implementation of a web app able to represent and simulate 1D population dynamics models. Parameters are fixed, and the initial condition can be set by the user through a slider.
+This work is a detailed implementation of a multipage web app able to represent and simulate 1D population dynamics models. Parameters are fixed, and the initial condition can be set by the user through a slider.
 
 Implemented models are:
-- the logistic model
-- a form of Allee effects model
+- the logistic model (page 1)
+- a form of Allee effects model (page 2)
 
 This work is based on classical Python modules, including `streamlit`, and the `streamlit-multipage-framework`:
 
