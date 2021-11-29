@@ -6,7 +6,7 @@ Implemented models are:
 - the logistic model
 - a form of Allee effects model
 
-This work is based on classical Python modules, including `streamlit`, and the 'streamlit-multipage-framework':
+This work is based on classical Python modules, including `streamlit`, and the `streamlit-multipage-framework`:
 
 https://github.com/YanAlmeida/streamlit-multipage-framework
 
