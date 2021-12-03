@@ -1,6 +1,6 @@
 # Multipage web app for population dynamics models
 
-This work is a detailed implementation of a multipage web app able to represent and simulate 1D population dynamics models. Parameters are fixed, and the initial condition can be set by the user through a slider.
+This work is a detailed implementation of a multipage web app able to represent and simulate some classical 1D population dynamics models. Parameters are fixed, and the initial condition can be set by the user through a slider.
 
 Implemented models are:
 - the logistic model (page 1)
